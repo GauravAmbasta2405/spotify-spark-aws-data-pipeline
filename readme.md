@@ -12,7 +12,7 @@ The transformed song, album, and artist datasets are stored in S3 and loaded int
 
 Connected Snowflake with Power BI to explore the Spotify data. Created visualizations using the songs, albums, and artists datasets.
 
-![Spotify Music Analytics Dashboard](docs/images/spotify_music_analytics_dashboard.png)
+![Spotify Music Analytics Dashboard](docs/spotify_music_analytics_dashboard.png)
 
 ### Overview
 
@@ -62,6 +62,7 @@ flowchart TD
 spotify-etl-project-gaurav-ambasta/
 ├── raw_data/
 │   └── to_processed/
+    └── processed/
 └── transformed_data/
     ├── song_data/
     ├── album_data/
